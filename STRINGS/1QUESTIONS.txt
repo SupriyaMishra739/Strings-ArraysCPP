@@ -1,0 +1,57 @@
+🔁 Duplicate Character & Frequency Based Questions:
+Find the first non-repeating character in a string.
+🔹 Input: "aabbcddbe" → Output: 'c'
+
+Remove all duplicate characters from a string but keep the first occurrences.
+🔹 Input: "programming" → Output: "progamin"
+
+Check if a string has all unique characters (without using extra space if possible).
+🔹 Input: "abcdef" → True
+🔹 Input: "apple" → False
+
+Find all strings in an array that are anagrams of each other.
+🔹 Input: ["listen", "silent", "rat", "tar", "art"]
+🔹 Output: [("listen", "silent"), ("rat", "tar", "art")]
+
+Group strings that are anagrams.
+🔹 Input: ["bat", "tab", "cat", "act", "tac"]
+🔹 Output: [["bat", "tab"], ["cat", "act", "tac"]]
+
+Count and return the character(s) with the highest frequency in a string.
+🔹 Input: "aabbbcddddd" → Output: 'd' (appears 5 times)
+
+Find all duplicate characters in a string (and their counts).
+🔹 Input: "aabccddee" → Output: 'a': 2, 'c': 2, 'd': 2, 'e': 2
+
+🧠 Trickier / Variation Based Questions:
+Given a string, check if any permutation of it can form a palindrome.
+🔹 Input: "civic" → Output: True
+🔹 Input: "ivicc" → Output: True
+🔹 Input: "hello" → Output: False
+
+Return strings from an array where all characters are unique (no duplicates).
+🔹 Input: ["apple", "ball", "cat", "dog"] → Output: ["cat", "dog"]
+
+Find the longest substring without repeating characters.
+🔹 Input: "abcabcbb" → Output: "abc" (length 3)
+
+Given a list of strings, return those that share any common character.
+🔹 Input: ["dog", "cat", "cow", "rat"]
+🔹 Output: "dog" and "cow" (both have 'o')
+
+🧪 Practice Pattern (for all above):
+Start by solving the logic for 1 string
+
+Then wrap in a function
+
+Then apply to the whole array
+
+Use set, unordered_map, unordered_set confidently
+
+📘 Bonus Tip:
+In interviews, questions like these test:
+
+Your understanding of characters and uniqueness
+
+Your ability to use standard containers like set, map
+
